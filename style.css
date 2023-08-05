@@ -1,0 +1,38 @@
+html,
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    color: white;
+    background-color: #4e69af;
+    padding: .6em;
+    margin: 0;
+}
+
+main {
+    padding: .6em 3em;
+    overflow-x: scroll;
+}
+
+.header {
+    background-color: #01235c;
+    color: white;
+    padding: .6em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    padding: 0.2em;
+    color: white;
+    background-color: #4f5f74;
+}
+
+td, th{
+    border: 1px solid black;
+}
