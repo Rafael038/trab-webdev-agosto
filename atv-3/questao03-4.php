@@ -11,11 +11,51 @@
 </head>
 
 <body>
+
+<?php
+        $r1 = isset($_GET["r1"]) ? $_GET["r1"] : 0;
+        $r2 = isset($_GET["r2"]) ? $_GET["r2"] : 0;
+        $r3 = isset($_GET["r3"]) ? $_GET["r3"] : 0;
+?>
     <header>
         <h1>Desenvolvimento Web</h1>
     </header>
     <main>
-        
+    <div class="questoes">
+            <h2>Trabalho: Questão 3</h2>
+
+            <div class="perguntas">
+                <h3>Q4: Lorem ipsum dolor sit amet consectetur adipiscing elit?</h3>
+                    <form id="questao" action="questao03-1.php" method="get">
+                        <div class="resposta">
+                            <ol type="A">
+                                <a  href="questao03-resultado.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=1">
+                                    <li>Sed do eiusmod tempor.</li>
+                                </a>
+                                <a href="questao03-resultado.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=2">
+                                    <li>Incididunt ut labore.</li>
+                                </a>
+                                <a href="questao03-resultado.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=3">
+                                    <li>Et dolore magna aliqua.</li>
+                                </a>
+                                <a id="resp" href="questao03-resultado.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=4">
+                                    <li>Enim nunc faucibus.</li>
+                                </a>
+                                <a href="questao03-resultado.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=5">
+                                    <li>Pellentesque sit amet.</li>
+                                </a>
+                            </ol>
+                    </form>
+            </div>
+        </div>
+
+
+        </ol>
+
+        <a href="questao03-1.php">Cancelar<a>
+        <br>
+        <a href="index.php">Retornar a Página Inicial</a>
+        </div>
     </main>
     <footer>
     <p> Eduardo Veloso/Rafael Barros - &copy; 2023</p>
