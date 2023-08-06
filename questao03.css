@@ -1,0 +1,28 @@
+.questoes .perguntas .resposta ol #resp {
+    color: #d60b0b
+
+}
+
+.questoes .perguntas .resposta ol a {
+    color: #000;
+    text-decoration: none;
+}
+
+.questoes .perguntas .resposta ol .questao3_resp {
+    display: flex;
+    align-items: center;
+}
+
+.questao3_resp_img {
+    width: .5em;
+    height: .5em;
+}
+
+h1, footer { 
+    background-color: beige;
+  }
+  
+  h2 {
+    color: white;
+    background-color: black;
+  }
